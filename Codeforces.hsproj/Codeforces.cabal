@@ -1,0 +1,19 @@
+name: Codeforces
+version: 1.0
+cabal-version: 1.11
+build-type: Simple
+license: AllRightsReserved
+stability: experimental
+extra-source-files:
+    theatre_square.txt
+x-ghc-framework-version: 7.10.3-5.18-1
+x-last-ide-version: HfM1.3.0
+Executable Codeforces
+  main-is: Codeforces.hs
+  buildable: True
+  build-depends:
+      base -any,
+      bytestring -any,
+      cryptohash -any
+  other-modules:
+      TheatreSquare
