@@ -1,4 +1,4 @@
-module TheatreSquare where
+module Problems.TheatreSquare where
   
 import Codeforces
 import System.Environment

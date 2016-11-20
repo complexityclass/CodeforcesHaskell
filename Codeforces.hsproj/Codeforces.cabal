@@ -5,7 +5,7 @@ build-type: Simple
 license: AllRightsReserved
 stability: experimental
 extra-source-files:
-    theatre_square.txt
+    ProblemInputs/theatre_square.txt
 x-ghc-framework-version: 7.10.3-5.18-1
 x-last-ide-version: HfM1.3.0
 Executable Codeforces
@@ -16,4 +16,4 @@ Executable Codeforces
       bytestring -any,
       cryptohash -any
   other-modules:
-      TheatreSquare
+      Problems.TheatreSquare

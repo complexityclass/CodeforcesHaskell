@@ -32,7 +32,7 @@ problemRead = do
                              ; BS.getLine
                              }
         ["--file"]        -> bail lonelyFileOption
-        ["--file", fname] -> BS.readFile fname
+        ["--file", fname] -> BS.readFile $ "ProblemInputs/" ++ fname
         [str]             -> return $ BS.pack str
         _                 -> bail tooManyArguments
     ; let inputString = BS.unpack input
