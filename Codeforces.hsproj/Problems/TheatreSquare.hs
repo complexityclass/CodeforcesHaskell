@@ -7,7 +7,7 @@ import System.Environment
 
 solution :: [Int] -> Int
 solution input = case input of
-  [n,m,a] -> div(-n)a*div(-m)a
+  [n,m,a] -> div (-n) a * div (-m) a
   _       -> 0
 
 main = do
