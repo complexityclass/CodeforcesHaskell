@@ -1,6 +1,5 @@
 module Codeforces where
   
-import Crypto.Hash.SHA1
 import qualified
        Data.ByteString.Char8  as BS
 import Data.Char

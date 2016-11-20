@@ -13,7 +13,7 @@ Executable Codeforces
   buildable: True
   build-depends:
       base -any,
-      bytestring -any,
-      cryptohash -any
+      bytestring -any
   other-modules:
+      Problems.LongWords
       Problems.TheatreSquare
